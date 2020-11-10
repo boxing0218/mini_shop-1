@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-20 07:34:29
+/* Smarty version 3.1.29, created on 2020-11-03 07:42:10
   from "C:\Users\user\UniServerZ\www\mini_shop\templates\goods_form.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f8e84f56a5529_07102462',
+  'unifunc' => 'content_5fa109d2c19a35_65704217',
   'file_dependency' => 
   array (
     '7ce4508f6bdf4d9a0833b464794b082436904f73' => 
     array (
       0 => 'C:\\Users\\user\\UniServerZ\\www\\mini_shop\\templates\\goods_form.html',
-      1 => 1461350246,
+      1 => 1604389328,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5f8e84f56a5529_07102462 ($_smarty_tpl) {
+function content_5fa109d2c19a35_65704217 ($_smarty_tpl) {
 ?>
 <h1>編輯商品</h1>
 <?php echo '<script'; ?>

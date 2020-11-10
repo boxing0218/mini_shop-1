@@ -1,10 +1,11 @@
 body{
-  background-image:  url('images/bg.jpg');
+  background-image:  url('images/onepiece10.jpg');
   font-family: 微軟正黑體;
 }
 
 .container{
-  background-color: white;
+  background-image:  url('images/ocean.jpg');
+  background-size: cover;
 }
 
 #shop_head{

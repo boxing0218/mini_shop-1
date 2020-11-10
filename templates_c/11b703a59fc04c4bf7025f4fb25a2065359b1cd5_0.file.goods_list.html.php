@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-20 07:07:04
+/* Smarty version 3.1.29, created on 2020-11-10 08:04:18
   from "C:\Users\user\UniServerZ\www\mini_shop\templates\goods_list.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f8e7e88cc8131_53669862',
+  'unifunc' => 'content_5faa4982a5c1b4_95783512',
   'file_dependency' => 
   array (
     '11b703a59fc04c4bf7025f4fb25a2065359b1cd5' => 
     array (
       0 => 'C:\\Users\\user\\UniServerZ\\www\\mini_shop\\templates\\goods_list.html',
-      1 => 1461366830,
+      1 => 1604995456,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5f8e7e88cc8131_53669862 ($_smarty_tpl) {
+function content_5faa4982a5c1b4_95783512 ($_smarty_tpl) {
 ?>
 <div class="row">
   <?php

@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-20 07:07:04
+/* Smarty version 3.1.29, created on 2020-11-03 07:19:08
   from "C:\Users\user\UniServerZ\www\mini_shop\templates\index_side.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f8e7e88e15b99_10453619',
+  'unifunc' => 'content_5fa1046c4f6d44_09941352',
   'file_dependency' => 
   array (
     '86f5782832d3cbd3c03ed1dd14b6c4df53ae4959' => 
     array (
       0 => 'C:\\Users\\user\\UniServerZ\\www\\mini_shop\\templates\\index_side.html',
-      1 => 1461652626,
+      1 => 1604387944,
       2 => 'file',
     ),
   ),
@@ -22,9 +22,9 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:side_cart.html' => 1,
   ),
 ),false)) {
-function content_5f8e7e88e15b99_10453619 ($_smarty_tpl) {
+function content_5fa1046c4f6d44_09941352 ($_smarty_tpl) {
 ?>
-<div class="panel panel-primary">
+<div class="panel panel-warning">
   <div class="panel-heading">功能表</div>
   <div class="panel-body">
     <?php if ($_smarty_tpl->tpl_vars['isUser']->value) {?>

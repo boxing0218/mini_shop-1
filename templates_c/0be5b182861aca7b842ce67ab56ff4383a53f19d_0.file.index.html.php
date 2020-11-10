@@ -1,22 +1,23 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-26 15:35:22
+/* Smarty version 3.1.29, created on 2020-11-10 08:03:42
   from "C:\Users\user\UniServerZ\www\mini_shop\templates\index.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f96ecba70deb9_17668168',
+  'unifunc' => 'content_5faa495e67db51_72068680',
   'file_dependency' => 
   array (
     '0be5b182861aca7b842ce67ab56ff4383a53f19d' => 
     array (
       0 => 'C:\\Users\\user\\UniServerZ\\www\\mini_shop\\templates\\index.html',
-      1 => 1603726518,
+      1 => 1604995420,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:index_side.html' => 1,
     'file:goods_form.html' => 1,
     'file:goods_display.html' => 1,
     'file:user_form.html' => 1,
@@ -25,10 +26,9 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:display_bill.html' => 1,
     'file:list_bill.html' => 1,
     'file:goods_list.html' => 1,
-    'file:index_side.html' => 1,
   ),
 ),false)) {
-function content_5f96ecba70deb9_17668168 ($_smarty_tpl) {
+function content_5faa495e67db51_72068680 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
@@ -59,14 +59,27 @@ function content_5f96ecba70deb9_17668168 ($_smarty_tpl) {
 >
   </head>
   <body>
+    
     <div class="container">
       <div id="shop_head">
         <a href="index.php">
-          <img src="images/title.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
-" class="img-responsive">
+          <img src="images/onepiece3.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
+" class="img-responsive col-md-12 col-sm-12" style="height: 300px;">
         </a>
       </div>
+      <div class="col-md-2 col-sm-2">
+        <img src="images/onepiece5.jpg" class="img-responsive" style="height: 180px;">
+      </div>
+      <div class="col-md-8 col-sm-8">
+        <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:index_side.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
 
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img src="images/onepiece4.jpg" class="img-responsive" style="height: 180px;">
+      </div>
+      
+      
       <div id="shop_main" class="row">
         <div class="col-md-9 col-sm-8">
           <?php if (isset($_smarty_tpl->tpl_vars['msg']->value)) {?>
@@ -107,16 +120,12 @@ function content_5f96ecba70deb9_17668168 ($_smarty_tpl) {
 
           <?php }?>
         </div>
-        <div class="col-md-3 col-sm-4">
-          <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:index_side.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-?>
-
-        </div>
+        
       </div>
 
       <div id="shop_foot" >
-        <div>地址：XX市XX區XX路XX巷XX號</div>
-        <div>電話：(06)2345678</div>
+        <div>地址：雲林縣斗六市長春路61號7樓</div>
+        <div>電話：(05)5371761</div>
         <div>版權所有 copyright © 2016 tad0616.net. All Rights Reserved. </div>
       </div>
     </div>

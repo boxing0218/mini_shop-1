@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-10-20 07:14:10
+/* Smarty version 3.1.29, created on 2020-11-09 14:54:21
   from "C:\Users\user\UniServerZ\www\mini_shop\templates\user_form.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5f8e8032e0aa83_79350096',
+  'unifunc' => 'content_5fa9581d725ce9_76423804',
   'file_dependency' => 
   array (
     '276fbb3ea23d71a7d2f610755126598a6df2b58a' => 
     array (
       0 => 'C:\\Users\\user\\UniServerZ\\www\\mini_shop\\templates\\user_form.html',
-      1 => 1461622298,
+      1 => 1604933659,
       2 => 'file',
     ),
   ),
@@ -19,9 +19,9 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5f8e8032e0aa83_79350096 ($_smarty_tpl) {
+function content_5fa9581d725ce9_76423804 ($_smarty_tpl) {
 ?>
-<h1>會員註冊</h1>
+<h1 style="text-align: center;">會員註冊</h1>
 <?php echo '<script'; ?>
  src="class/jQuery-Validation-Engine/js/languages/jquery.validationEngine-zh_TW.js" type="text/javascript" charset="utf-8"><?php echo '</script'; ?>
 >
