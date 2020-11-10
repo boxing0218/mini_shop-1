@@ -18,6 +18,7 @@ INSERT INTO `bill` (`bill_sn`, `user_sn`, `bill_total`, `bill_date`, `bill_statu
 (7, 2, 40, '2020-11-03 06:19:10', NULL);
 
 
+
 CREATE TABLE `bill_detail` (
   `bill_sn` mediumint(8) UNSIGNED NOT NULL COMMENT '帳單編號',
   `goods_sn` mediumint(8) UNSIGNED NOT NULL COMMENT '商品編號',
